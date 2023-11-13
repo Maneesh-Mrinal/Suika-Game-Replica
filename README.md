@@ -6,6 +6,16 @@ Welcome to the Suika Game Replica project repository! This project aims to recre
 
 The Suika Game Replica is a tribute to the trending game, aiming to replicate its mechanics, visuals, and overall gameplay. This project is a prototype, providing a foundation for future development and expansion.
 
+## Table of Contents
+- [Overview](#overview)
+- [Features](#features)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Usage](#usage)
+- [Acknowledgements](#acknowledgements)
+- [Contact](#contact)
+
 ## Features
 
 - **Basic Gameplay:** Mimics the core gameplay mechanics of Suika.
