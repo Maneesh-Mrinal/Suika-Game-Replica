@@ -35,7 +35,8 @@ public class DropIn : MonoBehaviour
         if (Input.GetMouseButtonDown(0)){
             isSpawned = false;                
         }
-        //Debug.Log(worldPosition);
+        Debug.Log(worldPosition);
+        Debug.Log(isSpawned);
     }
     void SpawnObject(float Xposition , int typeNumber)
     {
