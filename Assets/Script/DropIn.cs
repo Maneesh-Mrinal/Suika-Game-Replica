@@ -8,6 +8,7 @@ public class DropIn : MonoBehaviour
     static public bool isSpawned = false;
     int typeNumber = 0;
     GameObject instantiatedObject;
+    int generated_Number;
     //GameObject instantiatedObject2;
     // Start is called before the first frame update
     void Start()
@@ -35,15 +36,20 @@ public class DropIn : MonoBehaviour
         if (Input.GetMouseButtonDown(0)){
             isSpawned = false;                
         }
-        Debug.Log(worldPosition);
-        Debug.Log(isSpawned);
+        //Debug.Log(worldPosition);
+        //Debug.Log(isSpawned);
     }
     void SpawnObject(float Xposition , int typeNumber)
     {
         if(!isSpawned)
         {
-            Instantiate(Items[Random.Range(0, 5)], new Vector2(Xposition, 4f), Quaternion.identity);
-            isSpawned = true;
+            int generated_Number1 = Random.Range(0, 5);
+            if(generated_Number != generated_Number1)
+            {
+                Instantiate(Items[generated_Number1], new Vector2(Xposition, 4f), Quaternion.identity);
+                isSpawned = true;
+            }
+            generated_Number = generated_Number1;
         }
     }
 }

@@ -8,6 +8,7 @@ public class CombineObject : MonoBehaviour
     public GameObject instantiatedObject;
     public bool isDropped = false;
     public bool isCombined = false;
+    //public Collider2D current_Object;
     int id;
     // Start is called before the first frame update
     void Start()
@@ -32,6 +33,7 @@ public class CombineObject : MonoBehaviour
         if(isDropped == false && isCombined == false)
             transform.position = new Vector2(Xposition, 4.0f);
         if (Input.GetMouseButtonDown(0)){
+            //current_Object.enabled = true;
             isDropped = true;
         }
     }
