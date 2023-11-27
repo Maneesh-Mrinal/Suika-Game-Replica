@@ -19,7 +19,7 @@ The Suika Game Replica is a tribute to the trending game, aiming to replicate it
 ## Features
 
 - **Basic Gameplay:** Mimics the core gameplay mechanics of Suika.
-- **Graphics:** Utilizes simple graphics resembling the original game's aesthetics. (YET TO BE IMPLIMENTED)
+- **Graphics:** Utilizes simple graphics inspired from Anime Assassination Classroom's "Koro Sensei".
 - **Level Design:** Implements basic level structures for demonstration.
 
 ## Getting Started
