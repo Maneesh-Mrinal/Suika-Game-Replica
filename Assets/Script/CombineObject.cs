@@ -1,3 +1,4 @@
+using JetBrains.Annotations;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -8,6 +9,7 @@ public class CombineObject : MonoBehaviour
     public GameObject instantiatedObject;
     public bool isDropped = false;
     public bool isCombined = false;
+    
     //public Collider2D current_Object;
     int id;
     // Start is called before the first frame update

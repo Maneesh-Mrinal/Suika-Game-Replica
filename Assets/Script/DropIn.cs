@@ -43,7 +43,7 @@ public class DropIn : MonoBehaviour
     {
         if(!isSpawned)
         {
-            int generated_Number1 = Random.Range(0, 5);
+            int generated_Number1 = Random.Range(0, 4);
             if(generated_Number != generated_Number1)
             {
                 Instantiate(Items[generated_Number1], new Vector2(Xposition, 4f), Quaternion.identity);

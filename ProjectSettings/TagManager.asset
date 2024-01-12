@@ -16,6 +16,7 @@ TagManager:
   - Type 10
   - Type 11
   - Basket
+  - Spawner
   layers:
   - Default
   - TransparentFX

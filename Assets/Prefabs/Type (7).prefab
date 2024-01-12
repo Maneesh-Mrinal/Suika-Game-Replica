@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: -1988508320749093091}
   - component: {fileID: -8547916778071559599}
   - component: {fileID: 3198588109893926794}
+  - component: {fileID: -3814670787677916644}
   m_Layer: 0
   m_Name: Type (7)
   m_TagString: Type 7
@@ -165,3 +166,18 @@ MonoBehaviour:
   instantiatedObject: {fileID: 0}
   isDropped: 0
   isCombined: 0
+--- !u!114 &-3814670787677916644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8359521217823774068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01d82b5817c1fed46a9c2bcdd2edc026, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreCard: {fileID: 0}
+  idNum: 7
+  Score: 0
